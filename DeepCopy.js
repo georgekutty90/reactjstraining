@@ -27,4 +27,4 @@ let DeepCopyObject = JSON.parse(JSON.stringify(StudentObject));
 DeepCopyObject.name="GK";
 console.log("Q5. Write method to do deep copy of an object without using any third partylibrary.")
 console.log(StudentObject); //original object
-console.log(DeepCopyObject);  //Shallow copy object.
+console.log(DeepCopyObject);  //Deep copy object.
